@@ -173,6 +173,7 @@ span{
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 0px;
+  padding: 60px !important;
 }
 
 #Courses h1{
@@ -214,7 +215,7 @@ span{
   background-color: #d8d8d82a;
 }
 #Industry h1{
-  font-size: 60px !important;
+  font-size: 40px !important;
 }
 #Industry h5, h2{
   text-align: center;
@@ -224,7 +225,7 @@ span{
   font-size: 35px !important;
 }
 #Industry h5{
-  font-size: 22px !important ;
+  font-size: 18px !important ;
 }
 #Industry p{
   color: #424242;
@@ -237,13 +238,22 @@ span{
 
 /*RESEARCH*/
 #Research{
-  background-color: #d8d8d82a;
+  padding: 60px !important;
 }
 #Research h1{
-  font-size: 80px !important;
+  font-size: 40px !important;
 }
 #Research h5{
-  font-size: 25px !important;
+  font-size: 18px !important;
+  bottom: 20px !important;
+}
+#Research i{
+  padding: 2em;
+  font-size: 2em !important;
+  color: #424242;
+}
+#Research .card{
+  height: 45em !important;
 }
 
 
@@ -270,14 +280,12 @@ span{
 #Footer .HI{
   font-size: 35px;
 }
-#Footer a{
-  font-size: 25px;
-}
 #Footer p{
   font-size: 20px;
 }
-#Footer .btn-floating, i{
+#Footer i{
   font-size: 25px !important;
+  color: #424242;
 }
 
 
