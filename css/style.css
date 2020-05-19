@@ -15,7 +15,7 @@ main {
   margin-top: 80px;
   margin-bottom: 10px;
 }
-#About, #Carousel, #Industry, #Research, #Form, #Description, #CardsC{
+#About, #Carousel, #Industry, #Form, #Description, #CardsC{
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 100px;
@@ -239,6 +239,9 @@ span{
 /*RESEARCH*/
 #Research{
   padding: 60px !important;
+  margin-left: 40px;
+  margin-right: 35px;
+  margin-bottom: 100px;
 }
 #Research h1{
   font-size: 40px !important;
@@ -253,7 +256,7 @@ span{
   color: #424242;
 }
 #Research .card{
-  height: 45em !important;
+  height: 48em !important;
 }
 
 
@@ -266,7 +269,7 @@ span{
   margin-bottom: 100px !important;
 }
 #Form label{
-  font-size: 25px !important;
+  font-size: 3rem !important;
 }
 #Form input{
   font-size: 15px !important;
@@ -277,15 +280,22 @@ span{
 
 
 /*FOOTER*/ 
-#Footer .HI{
-  font-size: 35px;
-}
+
 #Footer p{
-  font-size: 20px;
+  font-size: 1.5rem !important;
 }
 #Footer i{
-  font-size: 25px !important;
+  font-size: 1.8rem !important;
   color: #424242;
+  height: 3rem;
+  width: 3rem !important;
+}
+#Footer a{
+  color: #ced4da;
+  font-size: 1.5rem;
+}
+#Footer label{
+  font-size: 1.3rem;
 }
 
 

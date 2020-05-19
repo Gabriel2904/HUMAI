@@ -451,12 +451,14 @@
                   <div class="card-content ">
                     <span class="center-align card-title activator grey-text text-darken-4 "><b>Cursos</b></span>
                   <hr>
-                  <div class="row center align">
-                  <p class="col s12 center-align valign-wrapper">Cursos en tecnología dados con docentes de amplia experiencia industrial y académica, abarcando desde
+                  <div class=" center align">
+                  <p class=" center-align valign-wrapper">Cursos en tecnología dados con docentes de amplia experiencia industrial y académica, abarcando desde
                       la introducción a la programación con Python hasta los últimos avances científicos en Inteligencia
                       Artificial. Aún más, cursos de Ingeniería de datos con Cloud Computing, Data Science, Business
                       Intelligence y Neurociencias.</p>
-                      <i class="material-icons ">arrow_upward</i>
+                      <div class="card-action">
+                        <i class="material-icons ">arrow_upward</i>
+                      </div>
                    </div>   
                   </div>
                 </div>
@@ -470,9 +472,12 @@
                     <span class="center-align card-title activator grey-text text-darken-4 center-align"><b>Investigación en Inteligencia
                         Artificial</b></span>
                         <hr>
-                        <p class="col s12 center-align center valign-wrapper">Nuestro equipo de físicos, computólogos y neurocientíficos realiza investigación enfocada al avance
+                        <p class=" center-align center valign-wrapper">Nuestro equipo de físicos, computólogos y neurocientíficos realiza investigación enfocada al avance
                           del estado del arte de la inteligencia artificial y el estudio de su funcionamiento.</p>
-                          <i class="material-icons ">arrow_upward</i>
+                          
+                          <div class="card-action">
+                            <i class="material-icons ">arrow_upward</i>
+                          </div>
                   </div>
                 </div>
               </div>
@@ -488,7 +493,9 @@
                         <hr>
                         <p class="center-align">Ofrecemos un amplio repertorio de soluciones basadas en Inteligencia Artificial y análisis de datos,
                           optimizando procesos industriales para grandes beneficios en las métricas del negocio.</p>
-                          <i class="material-icons ">arrow_upward</i>
+                          <div class="card-action">
+                            <i class="material-icons ">arrow_upward</i>
+                          </div>
                   </div>
                 </div>
               </div>
@@ -502,7 +509,7 @@
   </section>
 
 
-  <!--Contact-->
+  <!--Contact
   <section id="Form">
     <div class="container">
       <div class="section">
@@ -546,62 +553,49 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
 
 
   <!--Footer-->
   <section id="Footer">
     <footer class="page-footer grey darken-3">
       <div class="container">
-        <div class="row">
-          <div class="col s3">
-            <img src="static/logos/A_f2_inv_2.png" width="100" class="d-inline-block align-top" alt="LogoHumai"><br>
-            <p class="HI"> HUM<SPAN>AI</SPAN></p><br>
-            <p>© HUMAI 2020</p>
-          </div>
-
-          <div class="col s3">
-            <h3 class="white-text">Adress</h3>
-            <ul>
-              <li>
-                <p class="white-text" href="#!"><i class="material-icons">home</i>Buenos Aires CABA.</p>
-              </li>
-              <li>
-                <p class="white-text" href="#!"><i class="material-icons">drafts</i>admin@ihum.ai</p>
-              </li>
-              <li>
-                <p class="white-text" href="#!"><i class="material-icons">local_phone</i>+ 54 11 0000 0000</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col s3">
+        <div class="row center-align">
+          <div class="col s3 center-align">
             <h3 class="white-text">Follow Us</h3>
+            <img src="static/logos/A_f2_inv_2.png" width="100" class="d-inline-block center-align" alt="LogoHumai"><br>
+            
+            <p class="HI center-align"> HUM<SPAN>AI</SPAN></p><br>
             <a type="button" class="btn-floating btn-fb orange"><i class="fab fa-facebook-f"></i></a>
             <a href="https://twitter.com/HumaiInstituto" type="button blank" class="btn-floating btn-tw"><i
                 class="fab fa-twitter orange center-align"></i></a>
             <a href="https://www.linkedin.com/company/instituto-humai/" type="button" class="btn-floating btn-linkedin"><i
                 class="fab fa-linkedin-in orange"></i></a>
-            <a href="https://github.com/ihumai" type="button" class="btn-floating btn-git"><i
+            <a href="https://github.com/institutohumai" type="button" class="btn-floating btn-git"><i
                 class="fab fa-github orange"></i></a>
+            <a href="#" type="button" class="btn-floating btn-git"><i class="fab fa-whatsapp orange"></i></i></a>
+            <p class="center-align">© HUMAI 2020</p>
           </div>
+          <div class="col s2"></div>
 
-<div class="col s3">
+<div class="col s7">
   <div class="row">
     <div class="col s12 center">
-      <h3><i class="mdi-content-send brown-text"></i></h3>
       <h3>Contacto</h3>
     </div>
     <form class="col s12">
       <div class="row">
-        <div class="input-field col s6">
-          <input placeholder="Name" id="first_name" type="text" class="validate">
-          <label for="first_name">First Name</label>
+        <div placeholder="name" class="input-field col s6">
+          <input id="name" id="first_name" type="text" class="validate">
+          <label for="name">Name</label>
         </div>
-        <div class="input-field col s6">
-          <input placeholder="Last Name" id="last_name" type="text" class="validate">
-          <label for="last_name">Last Name</label>
-        </div>
+      <div placeholder="last_name" class="input-field col s6">
+        <input id="last_name" id="first_name" type="text" class="validate">
+        <label for="last_name">Last Name</label>
       </div>
+    </div>
+
+
       <div class="row">
         <div placeholder="Email" class="input-field col s12">
           <input id="email" type="email" class="validate">
@@ -609,7 +603,7 @@
         </div>
       </div>
       <div class="row">
-        <form class="col s12">
+        <form class="col s10">
           <div class="row">
             <div class="input-field col s12">
               <textarea id="textarea1" class="materialize-textarea"></textarea>
