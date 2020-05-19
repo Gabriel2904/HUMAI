@@ -28,6 +28,11 @@ main {
 
 .card{
   overflow: auto !important ;
+  border-radius: 3em !important;
+}
+.card-reveal{
+  overflow: auto !important ;
+  border-radius: 3em !important;
 }
 
 /*PARTICULAS*/
@@ -74,6 +79,25 @@ span{
   background-color: #ced4da00 !important;
 }
 #CardsC span:hover{
+  color: #ff9800 !important;
+}
+
+/*CARDS_C2*/
+#CardsC2{
+  padding-top: 100px;
+  background-color: #00000000;
+}
+
+#CardsC2 p{
+  line-height: 20px !important;
+  font-size: 15px;
+  color: #424242;
+}
+#CardsC2 .card{
+  height: 650px !important;
+  background-color: #ced4da00 !important;
+}
+#CardsC2 span:hover{
   color: #ff9800 !important;
 }
 
@@ -178,9 +202,7 @@ span{
   line-height: 20px !important;
 }
 #Courses img{
-  height: 150px;
-  width: 150px;
-  border-radius: 200px;  
+  border-radius: 8em;  
 }
 #Courses br{
   font-size: 100px;
