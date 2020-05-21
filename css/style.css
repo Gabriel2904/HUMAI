@@ -15,7 +15,7 @@ main {
   margin-top: 80px;
   margin-bottom: 10px;
 }
-#About, #Carousel, #Industry, #Form, #Description, #CardsC{
+#About, #Carousel, #Research, #Industry, #Form, #Description, #CardsC{
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 100px;
@@ -27,7 +27,7 @@ main {
 }
 
 .card{
-  overflow: auto !important ;
+  overflow: auto !important;
   border-radius: 3em !important;
 }
 .card-reveal{
@@ -105,16 +105,15 @@ span{
 /*CAROUSEL*/
 #Carousel{
   padding-bottom: 80px;
-  background-color: #92909011;
 }
-.carousel{
+#Carousel .carousel{
   height: 600px !important;
   width: 100% !important;
 } 
-.carousel-item img{
+#Carousel .carousel-item img{
   height: 250px;
 }
-.card-content{
+#Carousel .card-content{
   height: 210px !important;
 }
 #Carousel i{
@@ -130,12 +129,12 @@ span{
   color: #ffa502 !important;
   text-shadow: #ced4da;
 }
-.carousel .carousel-item {
+#Carousel .carousel .carousel-item {
   width: 450px !important;
   height: 500px !important;
 	padding: 50px;
 }
-.card{ 
+#Carousel .card{ 
 	border-radius: 8px; 
 	position: relative !important;
 	right: 20px !important;
@@ -169,7 +168,6 @@ span{
 
 /*COURSES_Index*/
 #Courses{
-  background-color: #92909011;
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 0px;
@@ -238,25 +236,13 @@ span{
 
 /*RESEARCH*/
 #Research{
-  padding: 60px !important;
-  margin-left: 40px;
-  margin-right: 35px;
-  margin-bottom: 100px;
+  
 }
 #Research h1{
   font-size: 40px !important;
 }
 #Research h5{
   font-size: 18px !important;
-  bottom: 20px !important;
-}
-#Research i{
-  padding: 2em;
-  font-size: 2em !important;
-  color: #424242;
-}
-#Research .card{
-  height: 48em !important;
 }
 
 
@@ -381,14 +367,14 @@ footer.page-footer {
   height: 300px;
   width: 100% !important;
 }
-.card-reveal{
+#Description  .card-reveal{
   color: #ffffff;
   background-color: rgba(0,0,0,0.7) !important;
 }
-div.card-reveal span.card-title{
+#Description  div.card-reveal span.card-title{
   color: #ffffff !important;
 }
-.tabs{
+#Description  .tabs{
   background-color: transparent;
 }
 td, th{
