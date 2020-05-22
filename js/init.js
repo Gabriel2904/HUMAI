@@ -103,3 +103,10 @@ document.addEventListener('DOMContentLoaded', function() {
 }( jQuery ));
 
        
+$(document).ready(function() {
+  // Here specify your content or message, enclose between <p>
+  var content = '<div class="modal-content"><p>my content</p></div>';
+
+  $('.modal').append(content);
+  $('.modal').modal();
+});

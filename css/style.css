@@ -10,7 +10,48 @@ body {
 }
 main {
   flex: 1 0 auto;
-}   
+}  
+
+.button-collapse {
+  color: #ff9800;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+} 
 #Home{
   margin-top: 80px;
   margin-bottom: 10px;
@@ -101,7 +142,6 @@ span{
   color: #ff9800 !important;
 }
 
-
 /*CAROUSEL*/
 #Carousel{
   padding-bottom: 80px;
@@ -139,6 +179,8 @@ span{
 	position: relative !important;
 	right: 20px !important;
 }
+
+
 
 
 /*ABOUT*/
@@ -235,9 +277,6 @@ span{
 
 
 /*RESEARCH*/
-#Research{
-  
-}
 #Research h1{
   font-size: 40px !important;
 }
@@ -295,54 +334,12 @@ span{
   color: #424242;
 }
 
-p {
+#Courses_C p {
   line-height: 2rem;
 }
 
-h5{
+#Courses_C h5{
   color: #424242;
-}
-
-
-.button-collapse {
-  color: #ff9800;
-}
-
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
 }
 
 
@@ -422,11 +419,22 @@ text {
   font-weight: bold;
 }
 
+
+/*Collap*/
+#Courses_C .collapsible-body{
+  padding: 0;
+  
+}
+
+
 /*-----------------------PRUEBAS----------------------*/
 
 /*Formato*/
+
 #Formato p{
   color: #424242;
+  line-height: 1.3rem;
+  font-size: 1.3rem !important;
 }
 #Formato br{
   line-height: 50px;
@@ -442,9 +450,12 @@ text {
   font-size: 10px !important;
 }
 #Formato .imgprof{
-  border-radius: 200px;
+  border-radius: 50% ;
 }
 #Formato .fab{
   color: #424242;
   font-size: 20px !important;
+}
+#Formato h5{
+  color: #424242;
 }

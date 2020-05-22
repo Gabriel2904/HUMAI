@@ -1,0 +1,45 @@
+/*GRAFO*/
+circle:hover {
+  stroke: #000000;
+  stroke-width: 50px;
+  stroke-dasharray: 700;
+  stroke-dashoffset: 700;
+  stroke-linecap: butt;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+  -ms-transition: all 2s ease-out;
+  -o-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+
+circle:hover {
+  r: 110;
+  stroke-width:2px;
+  stroke: #000000;
+}
+
+circle:hover {
+  transition: all 1s;
+}
+
+path:hover {
+  stroke: black;
+}
+
+text {
+  fill: black;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
