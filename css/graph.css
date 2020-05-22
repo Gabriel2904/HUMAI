@@ -13,7 +13,7 @@ circle:hover {
 }
 
 circle:hover {
-  r: 60;
+  r: 80;
   stroke-width:2px;
   stroke: #000000;
 }

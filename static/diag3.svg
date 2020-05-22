@@ -38,7 +38,7 @@
 	<stop  offset="0" style="stop-color:#FFD400"/>
 	<stop  offset="1" style="stop-color:#EFA72B"/>
 </linearGradient>
-<circle fill="url(#SVGID_1_)" stroke="#FEDC29" stroke-width="5" stroke-miterlimit="10" cx="74.635" cy="76.837" r="59.413"/>
+<circle id='circle8' onclick='expand(8)' fill="url(#SVGID_1_)" stroke="#FEDC29" stroke-width="5" stroke-miterlimit="10" cx="74.635" cy="76.837" r="59.413"/>
 <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="542.3098" y1="741.0723" x2="661.136" y2="741.0723" gradientTransform="matrix(0 1 1 0 -130.9792 -3.2219)">
 	<stop  offset="0" style="stop-color:#FCBE00"/>
 	<stop  offset="1" style="stop-color:#C20D0E"/>
@@ -191,9 +191,9 @@
 		c2.012,9.844-3.653,16.905-7.482,25.35c-1.869,4.122-5.014,12.543-3.356,16.905c-0.351-1.515-0.526-3.899-1.482-5.045
 		c0.038,2.103,1.396,4.178,2.012,6.169c0.868-1.482,1.684-3.026,3.297-3.993"/>
 </g>
-<image overflow="visible" enable-background="new" width="2400" height="1697" xlink:href="//static/logos/1.png"  transform="matrix(0.0319 0 0 0.0319 218.1584 229.9473)">
+<image overflow="visible" enable-background="new" width="2400" height="1697" xlink:href="/static/logos/1.png"  transform="matrix(0.0319 0 0 0.0319 218.1584 229.9473)">
 </image>
-<image overflow="visible" enable-background="new" width="2400" height="1697" xlink:href="//static/logos/1.png"  transform="matrix(0.0233 0 0 0.0233 87.8352 304.0933)">
+<image overflow="visible" enable-background="new" width="2400" height="1697" xlink:href="/static/logos/1.png"  transform="matrix(0.0233 0 0 0.0233 87.8352 304.0933)">
 </image>
 <image overflow="visible" enable-background="new" width="2400" height="1697" xlink:href="/static/logos/1.png"  transform="matrix(0.0233 0 0 0.0233 312.9417 564.9688)">
 </image>
@@ -223,16 +223,16 @@
 </image>
 <text transform="matrix(1 0 0 1 421.8997 386.5879)" font-family="'Montserrat-Medium'" font-size="14">Deep </text>
 <text transform="matrix(1 0 0 1 409.2102 403.3877)" font-family="'Montserrat-Medium'" font-size="14">Learning</text>
-<image overflow="visible" enable-background="new" width="2400" height="1697" xlink:href="98764E34.png"  transform="matrix(0.0334 0 0 0.0334 317.2463 306.2856)">
+<image overflow="visible" enable-background="new" width="2400" height="1697" xlink:href="/static/logos/1.png"  transform="matrix(0.0334 0 0 0.0334 317.2463 306.2856)">
 </image>
 <text transform="matrix(1 0 0 1 339.532 290.6191)" font-family="'Montserrat-Medium'" font-size="14">Data</text>
 <text transform="matrix(1 0 0 1 328.9548 307.4199)" font-family="'Montserrat-Medium'" font-size="14">Science</text>
 <text transform="matrix(1 0 0 1 591.2961 573.7637)" font-family="'Montserrat-Medium'" font-size="14">Deep</text>
 <text transform="matrix(1 0 0 1 572.3821 590.5635)" font-family="'Montserrat-Medium'" font-size="14">Learning II</text>
-<text transform="matrix(1 0 0 1 22.0095 47.6304)" font-family="'Montserrat-Medium'" font-size="13.6364">Introducción a</text>
-<text transform="matrix(1 0 0 1 15.5056 63.9946)" font-family="'Montserrat-Medium'" font-size="13.6364"> la Computación</text>
-<text transform="matrix(1 0 0 1 32.6794 80.3579)" font-family="'Montserrat-Medium'" font-size="13.6364">con Python</text>
-<text transform="matrix(1 0 0 1 572.259 76.999)" font-family="'Montserrat-Medium'" font-size="14">Neuro</text>
+<text id='text0' transform="matrix(1 0 0 1 22.0095 47.6304)" font-family="'Montserrat-Medium'" font-size="13.6364">Introducción a</text>
+<text id='text1' transform="matrix(1 0 0 1 15.5056 63.9946)" font-family="'Montserrat-Medium'" font-size="13.6364"> la Computación</text>
+<text id='text2' transform="matrix(1 0 0 1 32.6794 80.3579)" font-family="'Montserrat-Medium'" font-size="13.6364">con Python</text>
+<text id='text3' transform="matrix(1 0 0 1 572.259 76.999)" font-family="'Montserrat-Medium'" font-size="14">Neuro</text>
 <text transform="matrix(1 0 0 1 571.593 252.4756)" font-family="'Montserrat-Medium'" font-size="14">Neuro +</text>
 <text transform="matrix(1 0 0 1 592.2776 269.2754)" font-family="'Montserrat-Medium'" font-size="14">IA</text>
 <text transform="matrix(1 0 0 1 225.5886 215.0371)" font-family="'Montserrat-Medium'" font-size="14">Machine</text>
