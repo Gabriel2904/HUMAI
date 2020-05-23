@@ -148,24 +148,25 @@ span{
 
 /*CAROUSEL*/
 #Carousel{
-  padding-bottom: 80px;
-  height: 50rem !important;
+  padding-bottom: 1rem;
+  height: 100% !important;
 }
+
 #Carousel .carousel{
-  height: 600px !important;
+  height: 50rem !important;
   width: 100% !important;
 } 
 #Carousel .carousel-item img{
   height: 250px;
 }
 #Carousel .card-content{
-  height: 210px !important;
+  height: 100% !important;
 }
 #Carousel i{
   font-size: 30px;
 }
 #Carousel p{
-  font-size: 20px !important;
+  font-size: 18px !important;
 }
 #Carousel span{
   font-size: 25px !important;
@@ -175,8 +176,8 @@ span{
   text-shadow: #ced4da;
 }
 #Carousel .carousel .carousel-item {
-  width: 450px !important;
-  height: 500px !important;
+  width: 33rem !important;
+  height: 57rem !important;
 	padding: 50px;
 }
 #Carousel .card{ 
