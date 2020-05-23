@@ -328,68 +328,18 @@ span{
 }
 
 
-/*COURSES*/
+/*-----------------------------------------COURSES--------------------------------->*/
+
+
+/*Collap*/
 #Courses_C p{
-  font-size: 30px !important;
+  font-size: 1rem !important;
   color: #424242;
 }
 #Courses_C i{
-  font-size: 50px !important;
+  font-size: 3.5rem !important;
   color: #424242;
 }
-
-#Courses_C p {
-  line-height: 2rem;
-}
-
-#Courses_C h5{
-  color: #424242;
-}
-
-
-/*-----------------------------------------COURSES--------------------------------->*/
-/*DESCRIPTION*/
-#Description h1{
-  font-size: 80px !important;
-}
-#Description p{
-  color: #424242;
-  font-size: 20px;
-  margin-bottom: 50px !important;
-} 
-#Description h2{
-  text-align: left;
-}
-#Description .card{
-  height: 380px;
-  width: 250px !important;
-}
-#Description img{
-  height: 300px;
-  width: 100% !important;
-}
-#Description  .card-reveal{
-  color: #ffffff;
-  background-color: rgba(0,0,0,0.7) !important;
-}
-#Description  div.card-reveal span.card-title{
-  color: #ffffff !important;
-}
-#Description  .tabs{
-  background-color: transparent;
-}
-td, th{
-  padding: 5px 5px !important;
-}
-table.highlight>tbody>tr:hover{
-  background-color: rgba(238,110,115,0.6);
-}
-input[type=search]:focus{
-  border-bottom: 1px solid #ee6e73 !important;
-  box-shadow: 0 1px 0 0 #ee6e73 !important;
-}
-
-/*Collap*/
 #Courses_C .collapsible-body{
   padding: 10;
 }
@@ -399,18 +349,30 @@ input[type=search]:focus{
   
 }
 
+#Courses_C h5{
+  color: #424242;
+}
+
 .collapsible.popout > li.active {
 width: 125%;
-margin-left: -25%
+margin-left: -25%;
+background-color: #ffffffbe;
 }
 
 /*-----------------------PRUEBAS----------------------*/
 
 /*Formato*/
-
+#Formato{
+  margin: 0rem 1rem !important;
+  background-color: #ffffff00 !important;
+}
+#Formato h2{
+  color: #ff9800;
+  font-size: 3rem;
+}
 #Formato p{
   color: #424242;
-  line-height: 1.3rem;
+  line-height: 1.2rem;
   font-size: 1.3rem !important;
 }
 #Formato br{
@@ -427,7 +389,12 @@ margin-left: -25%
   font-size: 10px !important;
 }
 #Formato .imgprof{
-  border-radius: 50% ;
+  height: 100% !important;
+  width: 100% !important;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
 }
 #Formato .fab{
   color: #424242;
@@ -436,7 +403,19 @@ margin-left: -25%
 #Formato h5{
   color: #424242;
 }
-
-#Formato {
-  background-color: #ffffffa8;
+#Formato .card-image{
+  height: 25rem !important;
+}
+#Formato .card-panel{
+  color: #00000000 !important;
+  border: 1rem #00000000 solid !important;
+  box-shadow: none !important;
+  height: 35rem !important;
+}
+#Formato a{
+  margin-left: 2rem;
+}
+#Formato .card{
+  border-radius: 0% !important;
+  padding: 2rem 1rem;
 }
